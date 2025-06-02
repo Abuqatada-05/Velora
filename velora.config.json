@@ -1,0 +1,16 @@
+{
+  "agentName": "Velora",
+  "knowledgeSource": "Guru",
+  "responseType": "interactive_card",
+  "contextAware": true,
+  "adaptiveLearning": true,
+  "integrations": ["Slack", "Webhooks"],
+  "llmProvider": "OpenAI",
+  "loggingEnabled": true,
+  "maxResponseTokens": 500,
+  "defaultLanguage": "en",
+  "introduceOnFirstQuestion": true,
+  "introductionMessage": "Hi! I'm Velora, your smart AI assistant here to help you find answers quickly and easily.",
+  "frontlineKeywords": ["front", "frontline", "breakdown", "frontline breakdown"],
+  "frontlineResponse": "The Frontline Team Breakdown sheet below is a resource teammates can use to find information about Evolve teams that directly interact with customers or teams that share workflows with teams directly interacting with customers.\n\nTo view the sheet click this link: https://docs.google.com/spreadsheets/d/16yPYfLNou3zpcDJOh5Lp2IPHNqgoMZVkNsExHwTQF6Y/edit?usp=sharing\n\nClick through the tabs below (OGS or Other) to view relevant team information. Use the scroll bars on the right and bottom of the sheet below to view all information.\n\nFor more information on which queue certain case types/tasks go to, please see Salesforce Case Types & Queues: https://evolvevrn.lightning.force.com/lightning/r/ka0Pl000000HBrtIAG/view\n\nTransferring Calls to Non-OGS Teams:\nFor specific on how to transfer calls in Salesforce Voice, view Salesforce Voice | Overview\n\nTransfer Queue Names: https://evolvevrn.lightning.force.com/lightning/r/ka0Pl000000HL6TIAW/view\n\nUse the table below to locate the correct queue name in the \"Add a Caller\" feature for the team you need to transfer to:\n\nTeam Name | Transfer Queue Name\nPartner Team | SCV Partner\nSales Team | SCV Sales\n\nDistribution Partner Contact Information:\nAirbnb: 844-234-2500\nBooking.com: 888-850-4649\nHomeAway: 877-212-4741\nVRBO (Main Line): 877-202-4291\nVRBO/HA (Relocation Team Number): 877-228-3145\n\nOther:\nVRP: 888-618-1611\nRental Guardian: 888-885-5550"
+}
